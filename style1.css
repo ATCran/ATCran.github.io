@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.hi {
+    color: #FC8929;
+}
+
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #D2C2BC;
+    text-align: center;
+}
+
+/*div {
+    border: 2px solid red;
+}*/
+
+.titlecenter {
+    display: flex;
+    justify-content: center;
+}
+.enterbutton {
+    transition: transform 0.3s ease;
+}
+
+.enterbutton:hover {
+    transform: scale(1.1);
+}
