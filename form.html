@@ -54,15 +54,42 @@ p {
 
 <p>Isn't it... <h1 class="beaut">BEAUTIFUL?</h1></p>
 
-    <div class="gifbox">
-        <iframe src="https://giphy.com/embed/NHUONhmbo448" width="960" height="794" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-    </div>
-    <div class="gifbox">
-        <a class="btn btn-success btn-lg enterbutton" href="index.html" role="button">Home</a>
-    </div>
+<!-- Insert Coffee to continue gif -->
+
+<div class="gifbox">
+    <iframe src="https://giphy.com/embed/NHUONhmbo448" width="960" height="794" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</div>
+
+<br>
+<br>
 
 
-<script type="text/javascript" src="additionbot.js">
+<!-- AdditionBot gif link and script
+ -->
+<div class="gifbox">
+<button onclick="myFunction()"><img src="robot.gif" alt="AdditionBot"></button>
+</div>
+
+<br>
+<br>
+
+<!-- Home Button -->
+
+<div class="gifbox">
+  <a class="btn btn-success btn-lg enterbutton" href="index.html" role="button">Home</a>
+</div>
+
+<br>
+<br>
+
+<script>
+  function myFunction() {
+    var first = prompt("I am AdditionBot.  Give me a number.");
+var second = prompt("Give me another number and be amazed.");
+var sum = Number(first) + Number(second);
+alert("Easy.  The sum is " + sum + ".");
+  }
+</script>
 
 <!-- Bootstrap Javascript CDNs -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
